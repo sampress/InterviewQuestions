@@ -64,10 +64,8 @@ public class reverseTreeLevelOrder {
 			 
 	 while(!s.isEmpty()) 
      {
-	   TreeNode temp = s.peek();
-	   System.out.print(temp.data + " ");
-	   s.pop();
-     }
+	   System.out.print(s.pop().data + " ");
+	 }
  }
 		 
  public static void main(String[] args)
